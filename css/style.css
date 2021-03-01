@@ -9,6 +9,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../img/bg_001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1 {
   font-family: "Oswald";
 }
