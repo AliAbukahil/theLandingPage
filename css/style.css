@@ -3,19 +3,37 @@
   src: url("../fonts/Oswald-VariableFont_wght.ttf");
 }
 
-* {
+html {
+  font-size: 100%;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0%;
+  padding: 0%;
+  line-height: 1.3;
   background-image: url("../img/bg_001.jpg");
-  background-size: cover;
+  background-position: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 
 h1 {
   font-family: "Oswald";
+}
+.logo {
+  position: absolute;
+  right: 70%;
+  width: 16rem;
+  float: inline-end;
+  padding-left: 8vw;
+  padding-top: 1rem;
 }
