@@ -19,7 +19,7 @@ html {
   padding-left: 55%;
   width: 100%;
   position: absolute;
-  top: 8%;
+  top: 5%;
 }
 
 a,
@@ -29,6 +29,7 @@ a:active {
   text-decoration: none;
   color: whitesmoke;
   display: inline-block;
+  padding: ;
 }
 
 .logo {
@@ -37,4 +38,22 @@ a:active {
   margin: 6px;
   border: 5%;
   padding-left: 20%;
+}
+.whitePhone {
+  position: relative;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  padding-left: 50rem;
+  padding-top: -10mm;
+  object-fit: cover;
+}
+
+.blackPhone {
+  padding-bottom: 10rem;
+  position: absolute;
+  width: 150px;
+  height: auto;
+  padding-left: 55rem;
+  object-fit: cover;
 }
