@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Landing Page</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fonts/Oswald-VariableFont_wght.ttf">
-</head>
-
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Down Hamburger Menu</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- the navigation section  -->
     <nav>
-        <!-- The Menu on the Right -->
-        <ul>
-            <li href="#">PRODUCTS</li>
-            <li href="#">PRICES</li>
-            <li href="#">BLOG</li>
-            <li href="#">TEAM</li>
-            <li href="#">LOGIN</li>
-            <li href="#">SIGN UP</li>
-        </ul>
+      <div class="logo"><h1>CLEAR THE AIR...</h1></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">PRICES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">SIGN UP</a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <span class="icons"></span>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+      </ul>
     </nav>
-
-    <!-- The logo section -->
-    <div class="logo">
-        <img src="./img/logo_001.png" alt="logo of the Company" class="logo_of_the_Company">
+    <!-- the logo section  -->
+    <div class="logo1">
+      <a href="#"
+        ><img
+          src="./img/logo_001.png"
+          alt="logo of the Company"
+          class="logo_of_the_Company"
+      /></a>
     </div>
-
+    <!-- the two mobiles photos section -->
+    <div class="two-phones">
+      <a href="#"
+        ><img src="./img/phone_001.png" alt="white phone" class="white_phone"
+      /></a>
+      <a href="#"
+        ><img src="./img/phone_002.png" alt="black phone" class="black_phone"
+      /></a>
+    </div>
     <!-- The h1 section -->
     <div class="h1_title">
-        <h1>Make your Startup web <br> with our template</h1>
+      <h1>
+        Make your Startup web <br />
+        with our template
+      </h1>
     </div>
-
     <!-- The paragraph section -->
     <div class="lorem">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis architecto quo quis. Hic quod, asperiores at
-            numquam esse tenetur suscipit voluptatibus cum reiciendis recusandae nisi incidunt sapiente exercitationem.
-            Veniam, aut?</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis <br />
+        architecto quo quis. Hic quod, asperiores at numquam esse tenetur <br />
+        suscipit voluptatibus cum reiciendis recusandae nisi incidunt sapiente
+        <br />
+        exercitationem. Veniam, aut?
+      </p>
     </div>
-
     <!-- The buttons section -->
-    <div id="green_blue">
-        <button class="learn_more" type="button">Learn More</button>
-        <button class="get_the_app" type="button">Get the App</button>
+    <div class="green_blue">
+      <a href="#"
+        ><button class="learn_more" type="button">Learn More</button></a
+      >
+      <a href="#"
+        ><button class="get_the_app" type="button">Get the App</button></a
+      >
     </div>
-
-    <!-- The Mobile phones Images section -->
-    <div>
-        <div><img src="./img/phone_001.png" alt="white phone" class="white_phone" /></div>
-        <div> <img src="./img/phone_002.png" alt="black phone" class="black_phone" /> </div>
-    </div>
-</body>
-
+    <!-- the javaScript file section -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>
